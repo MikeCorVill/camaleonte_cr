@@ -1,0 +1,50 @@
+#content{
+    border: 4px solid #fff;
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+#content h1{
+    background-image: url("../img/Logos/productos.jpg");
+    text-align: center;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: auto;
+    padding: 15px;
+}
+/*----------------------------------------------------------------------------------*/
+
+#acercaDe .imgNosotros{
+    display: flex;
+    justify-content: space-around;
+}
+#acercaDe .Logo{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top:200px;
+
+}
+#acercaDe .Logo img{
+    border: 10px double #D8EB8A;
+    border-radius: 50%;
+}
+
+#acercaDe .Informacion{
+    color: #D8EB8A;
+    display: grid;
+    padding: 15px;
+}
+#acercaDe .Informacion .encabezado{
+    font-size: xx-large;
+    font-style: italic;
+}
+@media screen and (max-width: 991px) {
+    #acercaDe .Logo img{
+        height: auto;
+        width: auto;
+    }
+}

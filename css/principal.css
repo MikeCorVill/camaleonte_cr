@@ -1,0 +1,138 @@
+/***** Section Body & Container *****/
+body{
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F8FFAE, #778D5C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F8FFAE, #778D5C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#container{
+    background-image: url('../img/Logos/background.jpg');
+    width: 85%;
+    margin: 0 auto;
+}
+/***** End Section *****/
+
+/*------------------------------------------------------------------*/
+
+/***** Section Header *****/
+#header{
+    background-color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 50px;
+}
+#header .headerLogo img{
+    height: 140px;
+}
+#header .headerName img{
+    height: 250px;
+    border-radius: 50px;
+}
+@media screen and (max-width: 991px) {
+    #header{
+        background-color: #fff;
+    }
+    #header .headerLogo img{
+        display: none;
+    }
+    #header .headerName img{
+        margin: 0 auto;
+        align-items: center;
+        width: 100%;
+    }
+}
+/***** End Section Header *****/
+
+/*------------------------------------------------------------------*/
+
+/***** Section NavBar *****/
+.navbar{
+    background: #6A9113;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #141517, #6A9113);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #141517, #6A9113); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 95%;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    border-radius: 25px;
+}
+.navbar a{
+    color: #fff;
+}
+.kmaleont_logo{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+}
+.navbar .CamaleonteHome:hover{
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .menuLink:hover{
+    font-size: larger;
+    font-style: italic;
+    color: #778D5C;
+    background-color: #fff;
+    border-radius: 15px;
+}
+nav .menuLink:hover{
+    border-bottom: 2px double #778D5C;
+}
+/***** End Section NavBar *****/
+
+/*------------------------------------------------------------------*/
+
+/***** Section Footer *****/
+#footer{
+    background-color: #fff;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+#footer .card{
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    border: 0px;
+    max-width: 18rem;
+    width: auto;
+}
+#footer .imagenFooter{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .imagenFooter img{
+    height: 100px;
+    width: 100px;
+}
+#footer .card-body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
+#footer .redesSociales .card-body{
+    display: inline;
+}
+#footer .redSocialLogo{
+    height: 60px;
+    width: 60px;
+}
+#footer .logoTg{
+    height: 47px;
+    width: 47px;
+}
+#footer .derechosAutor{
+    text-align: center;
+    font-size: small;
+}
+/***** End Section Footer *****/

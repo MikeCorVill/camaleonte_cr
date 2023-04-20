@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camaleonte - Nuestros Productos</title>
+
+    <!-- Hojas de Estilo - CSS-->
+    <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/productos.css">
+
+    <!-- Llamado Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <div id="container">
+        <!-- Header -->
+        <header id="header">
+            <div class="headerLogo">
+                <img src="../img/Logos/CamaleonteHeader.png" alt="">
+            </div>
+            <div class="headerName">
+                <img src="../img/Logos/Logo_Personalizaciones_CR.jpg" alt="">
+            </div>
+        </header>
+    
+        <!-- Navegador - Menú -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img class="kmaleont_logo" src="../img/Logos/CamaleonteNav.png" alt="LogoCamaleonte">
+                <a class="navbar-brand CamaleonteHome" href="../index.html">Camaleonte CR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item principalMenu">
+                            <a class="nav-link menuLink" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item principalMenu">
+                            <a class="nav-link menuLink" href="../html/productos.html">Nuestros Productos</a>
+                        </li>
+                        <li class="nav-item principalMenu">
+                            <a class="nav-link menuLink" href="../html/aboutUs.html">Acerca de Nosotros</a>
+                        </li>
+                        <li class="nav-item principalMenu">
+                            <a class="nav-link menuLink" href="../html/contacto.html">Contáctenos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Contenido Principal -->
+        <main id="content">
+
+            <nav id="navegador_Contenido">
+
+                <hr style="border: 5px solid #fff ;">
+
+                <h1>Nuestros Productos</h1>
+                
+                <ul class="nav nav-tabs justify-content-center" id="navbarNavDropdown" id="myTab" role="tablist">
+                    <li class="nav-item productoItem" role="presentation">
+                        <button class="nav-link active" id="botellas-tab" data-bs-toggle="tab" data-bs-target="#botellas" type="button" role="tab" aria-controls="botellas" aria-selected="true">
+                            <img class="imgButton" src="../img/Productos/botellas/BOT-ProductosHome.png" alt="">
+                            <p class="pMenu">Botellas</p>
+                        </button>
+                    </li>
+                    <li class="nav-item productoItem" role="presentation">
+                        <button class="nav-link" id="jarras-tab" data-bs-toggle="tab" data-bs-target="#jarras" type="button" role="tab" aria-controls="jarras" aria-selected="true">
+                            <img class="imgButton" src="../img/Productos/jarras/JAR-ProductosHome.png" alt="">
+                            <p class="pMenu">Jarras</p>
+                        </button>
+                    </li>
+                    <li class="nav-item productoItem" role="presentation">
+                        <button class="nav-link" id="mugs-tab" data-bs-toggle="tab" data-bs-target="#mugs" type="button" role="tab" aria-controls="mugs" aria-selected="true">
+                            <img class="imgButton" src="../img/Productos/mugs/MUG-ProductosHome.png" alt="">
+                            <p class="pMenu">Mugs</p>
+                        </button>
+                    </li>
+                    <li class="nav-item productoItem" role="presentation">
+                        <button class="nav-link" id="ropa-tab" data-bs-toggle="tab" data-bs-target="#ropa" type="button" role="tab" aria-controls="ropa" aria-selected="false">
+                            <img class="imgButton" src="../img/Productos/ropa/ROP-ProductosHome.png" alt="">
+                            <p class="pMenu">Ropa</p>
+                        </button>
+                    </li>
+                    <li class="nav-item productoItem" role="presentation">
+                        <button class="nav-link" id="stickers-tab" data-bs-toggle="tab" data-bs-target="#stickers" type="button" role="tab" aria-controls="stickers" aria-selected="false">
+                            <img class="imgButton" src="../img/Productos/stickers/STI-ProductosHome.png" alt="">
+                            <p class="pMenu">Stickers</p>
+                        </button>
+                    </li>
+                    <li class="nav-item productoItem productoItemLast" role="presentation">
+                        <button class="nav-link" id="vasosTermicos-tab" data-bs-toggle="tab" data-bs-target="#vasosTermicos" type="button" role="tab" aria-controls="vasosTermicos" aria-selected="false">
+                            <img class="imgButton" src="../img/Productos/termos/VTS-ProductosHome.png" alt="">
+                            <p class="pMenu">Vasos Térmicos</p>
+                        </button>
+                    </li>
+                </ul>
+
+                <hr style="border: 5px solid #fff ;">
+
+                <div class="tab-content" id="myTabContent">
+
+                    <!-- BOTELLAS -->
+                    <div class="tab-pane fade show active cajaProductos" id="botellas" role="tabpanel" aria-labelledby="botellas-tab">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/botellas/BOT-Nombre.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Botella Personalizada con Nombre.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/botellas/BOT-Skittles.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Botella personalizada con Nombre.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/botellas/BOT-Nombre2.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Botella personalizada con Nombre.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/botellas/BOT-Spiderman.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Botella personalizada de Spiderman.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/botellas/BOT-Messi.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Botella personalizada de Messi.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/botellas/BOT-Video.gif" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Botella Personalizada con Nombre.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        
+                        </div>
+                    </div>
+
+                    <!-- JARRAS -->
+                    <div class="tab-pane fade cajaProductos" id="jarras" role="tabpanel" aria-labelledby="jarras-tab">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/jarras/JAR-HambPapas.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Jarra personalizada.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/jarras/JAR-BorrachaPero.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Jarra personalizada.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        
+                        </div>
+                    </div>
+        
+                    <!-- MUGS -->
+                    <div class="tab-pane fade cajaProductos" id="mugs" role="tabpanel" aria-labelledby="mugs-tab">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/mugs/MUG-Mario.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Mug personalizado de Mario.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/mugs/MUG-Ghost.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Mug personalizado de Ghost.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                 <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/mugs/MUG-Bowser.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Mug personalizado de Bowser.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/mugs/MUG-CosmoWanda.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Mug personalizado de Cosmo y Wanda.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/mugs/MUG-Yoshi.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Mug personalizada de Yoshi.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/mugs/MUG-Gato.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Mug personalizado de Gato.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        
+                        </div> 
+                    </div>
+
+                    <!-- ROPA -->
+                    <div class="tab-pane fade cajaProductos" id="ropa" role="tabpanel" aria-labelledby="ropa-tab">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="carrusel">
+                                        <div id="carouselExampleIndicators" class="carousel slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                                    aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                                    aria-label="Slide 3"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active card-header">
+                                                    <img class="imgProducto" src="../img/Productos/ropa/ROP-Camisa1971(1).jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item card-header">
+                                                    <img class="imgProducto" src="../img/Productos/ropa/ROP-Camisa1971(2).jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item card-header">
+                                                    <img class="imgProducto" src="../img/Productos/ropa/ROP-Camisa1971(3).jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Estampado de Camisas</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/ropa/ROP-CamisaDeportiva.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Camisa Deportiva Personalizada</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/ropa/ROP-CamisaYesToucan.jpeg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Camisa Yes Toucan</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/ropa/ROP-Blusa.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Blusas Deportivas Personalizadas</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/ropa/ROP-CamisaMapa.jpeg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Estampado de Camisas</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/ropa/ROP-EstampadoCR.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Estampado de Camisas</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/ropa/ROP-CamisaCalavera.jpeg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Estampado de Camisas</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/ropa/ROP-Camisas.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Camisas Personalizadas</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/ropa/ROP-Estampados.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Estampados</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        
+                        </div>
+                    </div>
+
+                    <!-- STICKERS -->
+                    <div class="tab-pane fade cajaProductos" id="stickers" role="tabpanel" aria-labelledby="stickers-tab">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/stickers/STI-Auto.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Stickers para AUTO.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/stickers/STI-Laptop.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Stickers para Laptops.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/stickers/STI-NoAfloje.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Stickers No Afloje.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/stickers/STI-Variados.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Stickers Variados.</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                
+                                <div class="card" style="width: 18rem;">
+                                    <div class="carrusel">
+                                        <div id="carouselSticker" class="carousel slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselSticker" data-bs-slide-to="0"
+                                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselSticker" data-bs-slide-to="1"
+                                                    aria-label="Slide 2"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active card-header">
+                                                    <img class="imgProducto" src="../img/Productos/stickers/STI-BabyShower.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item card-header">
+                                                    <img class="imgProducto" src="../img/Productos/stickers/STI-BabyShower2.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Sticker Baby Shower</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/stickers/STI-Metalizado.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Stickers Metalizados.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/stickers/STI-PawPatrol.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Stickers Paw Patrol.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/stickers/STI-Variados2.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Stickers Variados.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/stickers/STI-Comfy.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Stickers Personalizados.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/stickers/STI-Metalizados2.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Stickers Metalizados.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/stickers/STI-Tatoo.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Stickers Tatuajes.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        
+                        </div>
+                    </div>
+                    
+                    <!-- VASOSTERMICOS -->
+                    <div class="tab-pane fade cajaProductos" id="vasosTermicos" role="tabpanel" aria-labelledby="vasosTermicos-tab">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="carrusel">
+                                        <div id="carouselVasosTermicos" class="carousel slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselVasosTermicos" data-bs-slide-to="0"
+                                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselVasosTermicos" data-bs-slide-to="1"
+                                                    aria-label="Slide 2"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active card-header">
+                                                    <img class="imgProducto" src="../img/Productos/termos/VTS-FBNegro.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item card-header">
+                                                    <img class="imgProducto" src="../img/Productos/termos/VTS-FBTurquesa.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Vasos Térmicos</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/termos/VTS-Nombre2.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Vaso Térmico.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/termos/VTS-Nombre5.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Vaso Térmico.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/termos/VTS-Nombre8.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Vaso Térmico.</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/termos/VTS-Personalizados.jpeg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Vaso Térmico.</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/termos/VTS-Colores.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Vaso Térmico .</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/termos/VTS-Nombre3.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Vaso Térmico .</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/termos/VTS-Nombre6.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Vaso Térmico .</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/termos/VTS-Nombre9.jpg" class="card-img-top" alt="...">
+                                    </div>                                    
+                                    <div class="card-body">
+                                        <p class="card-text">Vaso Térmico .</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/termos/VTS-Nombre.jpg" class="card-img-top" alt="...">
+                                    </div>                                        
+                                    <div class="card-body">
+                                        <p class="card-text">Vaso Térmico .</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/termos/VTS-Nombre4.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Vaso Térmico .</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/termos/VTS-Nombre7.png" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Vaso Térmico .</p>
+                                    </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                        <img class="imgProducto" src="../img/Productos/termos/VTS-Nombre10.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Vaso Térmico .</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <hr style="border: 5px solid #fff ;">
+
+            </nav>
+
+        </main>
+
+    </div>
+
+     <!-- Footer-->
+     <footer id="footer">
+
+        <!-- Ubicacion / Teléfono / Correo / Redes / Horario de Atención-->
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+                
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 InfoContactoFooter">
+                <div class="card" style="width: 18rem;">
+                    <div class="imagenFooter">
+                        <img src="../img/Logos/infoContacto.png" class="card-img-top" alt="Redes Sociales">
+                    </div>
+                    <div class="card-body">
+                        <h5>Información de Contacto</h5>
+                        Administradores: Christine & Bryan <br>
+                        Teléfono: (+506) 6025-5881 <br>
+                        Correo: camaleonte.cr@gmail.com
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 ubicacion">
+                <div class="card" style="width: 18rem;">
+                    <div class="imagenFooter">
+                        <img src="../img/Logos/ubicacion.png" class="card-img-top" alt="Redes Sociales">
+                    </div>
+                    <div class="card-body">
+                        <h5>Dirección</h5>
+                        Puede encontrarnos en la siguiente ubicación: <br>
+                        75 metros sur de la escuela, San Juan norte, Poás, Alajuela.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 redesSociales">
+                <div class="card" style="width: 18rem;">
+                    <div class="imagenFooter">
+                        <img src="../img/Logos/redesSociales.png" class="card-img-top" alt="Redes Sociales">
+                    </div>
+                    <div class="card-body">
+                        <h5>Nuestras Redes Sociales</h5>
+                        <a href="https://www.facebook.com/profile.php?id=100090946052746" target="_blank">
+                            <img class="redSocialLogo" src="../img/Redes/fb_logo.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/camaleonte_cr/" target="_blank">
+                            <img class="redSocialLogo" src="../img/Redes/ig_logo.png" alt="">
+                        </a>
+                        <a href="https://api.whatsapp.com/message/NJR6QSL7KZOXP1?autoload=1&app_absent=0" target="_blank">
+                            <img class="redSocialLogo" src="../img/Redes/wa_logo.png" alt="">
+                        </a>
+                        <a class="redSocialTg" href="https://t.me/christine_clp" target="_blank">
+                            <img class="redSocialLogo logoTg" src="../img/Redes/tg_logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="derechosAutor">
+            <hr>
+            <p>
+                © Derechos Reservados <br>
+                Miguel Corella Villalobos <br>
+                207560710 <br>
+                mlcorella@est.utn.ac.cr <br>
+                Estudiante ISW - UTN
+            </p>
+            <hr>
+        </div>
+
+    </footer>
+
+    <!-- Scripts -->
+    <div id="scripts">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous">
+        </script>
+    </div>
+    
+</body>
+</html>

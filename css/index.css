@@ -1,0 +1,121 @@
+.primaryContent{
+    float: right;
+    padding: 10px;
+}
+.primaryContent .productosHome{
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+}
+.primaryContent .productosHome .card{
+    background-color: #778D5C;
+    color: #fff;
+    border: 4px dotted #fff;
+    box-sizing: border-box;
+}
+.primaryContent .productosHome .card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.primaryContent .productosHome .card-body{
+    height: 350px;
+    display: grid;
+}
+.primaryContent .productosHome .card-body p{
+    text-align: justify;
+    box-sizing: border-box;
+}
+.primaryContent .productosHome .imagenesHome{
+    height: 150px;
+    width: 150px;
+}
+
+.primaryContent .dinstincion{
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+}
+.primaryContent .dinstincion .card{
+    background-color: #778D5C;
+    color: #fff;
+    border: 4px dotted #fff;
+}
+.primaryContent .dinstincion .card-header{
+    margin: 0 auto;
+}
+.primaryContent .dinstincion .card-body{
+    height: 380px;
+}
+.primaryContent .dinstincion .card-body p{
+    text-align: justify;
+    height: auto;
+}
+.primaryContent .dinstincion .imgDistincion{
+    height: 150px;
+    width: 150px;
+}
+.primaryContent .dinstincion .distinciones .card{
+    margin: 0 auto;
+}
+/*-------------------------------------------------------------*/
+.secondaryContent{
+    float: left;
+    box-sizing: border-box;
+    display: grid;
+    align-items: center;
+    border-right: 2px solid #fff;
+}
+#content .carruselHome{
+    height: 220px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content .carruselHome img{
+    margin: 0 auto;
+    height: 200px;
+    max-width: min-content;
+    width: auto;
+}
+#content .carruselHome .personalizaciones{
+    height: 150px;
+    width: 100px;
+}
+.secondaryContent .listaProductos{
+    background-color: #fff;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 15px 10px 15px 10px;
+    text-align: justify;
+    color: #778D5C;
+    
+}
+.listaProductos ul{
+    list-style-type: circle;
+}
+.listaProductos li:hover{
+    background-color: #778D5C;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    text-underline-position: auto;
+}
+.secondaryContent .noticia{
+    background-color: #fff;
+    border-radius: 35px;
+    margin: 15px;
+    padding: 15px 10px 15px 10px;
+    text-align: justify;
+    color: #778D5C;
+}
+@media screen and (max-width: 991px) {
+    .primaryContent .dinstincion .card-body{
+        height: auto;
+    }
+    .primaryContent .productosHome .card-body{
+        height: auto;
+    }
+}

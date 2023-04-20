@@ -1,0 +1,80 @@
+/*Título*/
+#content h1{
+    background-image: url("../img/Logos/productos.jpg");
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Manú de Productos*/
+#navegador_Contenido{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#navegador_Contenido .nav-tabs{
+    background-color: #778D5C;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+}
+#navegador_Contenido .nav-tabs .productoItem{
+    border-right: 2px dotted #fff;
+    width: 16%;
+}
+#navegador_Contenido .nav-tabs .productoItemLast{
+    border-right: none;
+}
+#navegador_Contenido .nav-tabs button{
+    color: #fff;
+    background-color: unset;
+    border: none;
+    margin: 0 auto;
+}
+#navegador_Contenido .nav-tabs button .imgButton{
+    display: none;
+    height: 50px;
+    width: 50px;
+}
+/*Productos*/
+#myTabContent .cajaProductos .card{
+    background-color: #778D5C;
+    color: #fff;
+    border: 4px double #fff;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+#myTabContent .cajaProductos .card-heaader{
+    margin: 0 auto;
+}
+#myTabContent .cajaProductos .card-body{
+    height: 80px;
+    border-top: 2px outset #fff;
+}
+#myTabContent .cajaProductos .card-body p{
+    text-align: center;
+    height: auto;
+}
+#myTabContent .cajaProductos .imgProducto{
+    height: 250px;
+    width: 250px;
+}
+/*MediaQuery*/
+@media screen and (max-width: 991px) {
+    #navegador_Contenido .nav-tabs .productoItem{
+        border-right: unset;
+        width: auto;
+        background-color: #2e4105;
+        border: 1px solid #fff;
+        border-radius: 25px;
+        margin: 5px;
+    }
+    #navegador_Contenido .nav-tabs button .imgButton{
+        display: flex;
+    }
+    #navegador_Contenido .nav-tabs button .pMenu{
+        display: none;
+    }
+}

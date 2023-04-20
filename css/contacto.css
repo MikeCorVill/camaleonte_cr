@@ -1,0 +1,85 @@
+/* Informacioón */
+#content .infoBox{
+    border-right: 2px double #fff;
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.infoBox .card{
+    background-color: #778D5C;
+}
+.infoBox .card .col-md-4{
+    display: flex;
+    align-items: center;
+}
+.infoBox .card .card-header{
+    display: flex;
+    justify-content: center;
+}
+.infoBox .card .card-body{
+    display: grid;
+    justify-content: center;
+}
+.infoBox .card .imagenesCont{
+    height: 150px;
+    width: 150px;
+}
+
+.infoPrinc .card-text .list-group-item{
+    background-color: #778D5C;
+}
+/* Redes Sociales - .infonBox .infoRedes .card-header/.card-body .card-text ul li button a/img .redSocialCont*/
+.infoRedes .card-text .redSocialCont{
+    height: 25px;
+    width: 25px;
+}
+.infoRedes .card-text button{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.infoRedes .card-text a{
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: unset;
+}
+.infoRedes .card-text li{
+    background-color: #778D5C;
+}
+
+.infoUbicacion .card-text #frmMaps{
+    height: 300px;
+    width: 320px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+
+/* Formulario */
+#content .formBox{
+    border-radius: 50px;
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.formBox .formTittle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: #fff;
+}
+.formBox label{
+    color: #fff;
+}
+.formBox .imgCamaleon img{
+    height: 100px;
+    width: 100px;
+}
+
+
+/*Media Query*/
+@media screen and (max-width: 991px) {
+    
+}
